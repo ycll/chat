@@ -25,8 +25,8 @@ function sendSms($phone, $code) {
     $security = false;
 
     // fixme 必填: 请参阅 https://ak-console.aliyun.com/ 取得您的AK信息
-    $accessKeyId = "LTAIvM4bFRIqVtDo";
-    $accessKeySecret = "DVkqCVSTiww6QWeV2aqnrC0yeSEQs8";
+    $accessKeyId = "";
+    $accessKeySecret = "";
 
     // fixme 必填: 短信接收号码
     $params["PhoneNumbers"] = $phone;
